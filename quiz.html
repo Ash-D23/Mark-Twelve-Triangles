@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="style.css" />
+        <title>Title</title>
+    </head>
+    <body>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Triangle</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="area.html">Area</a></li>
+          <li><a href="hypoteneus.html">Hypoteneus</a></li>
+        </ul>
+      </nav>
+
+      <div class="container">
+
+        <h1 class="title">Triangle Quiz</h1>
+
+        <div class="container2">
+          <form class="quiz-form">
+            <h3> Choose the correct answer</h3>
+            <div class="question">
+              <p class="question-title">
+                1. If all the angles of triangle are equal, then each of the angles is equal to?
+              </p>
+              <label><input type="radio" name="question1" value="30"> 30</label>
+              <label><input type="radio" name="question1" value="90"> 90</label>
+              <label><input type="radio" name="question1" value="60"> 60</label>
+            </div>
+
+            <div class="question">
+              <p class="question-title">
+                2. How many medians a triangle can have?
+              </p>
+              <label><input type="radio" name="question2" value="1"> 1</label>
+              <label><input type="radio" name="question2" value="3"> 3</label>
+              <label><input type="radio" name="question2" value="4"> 4</label>
+            </div>
+
+          </form>
+
+          <button id="mybtn">Submit</button>
+        </div>
+
+
+
+        <div class="output hide">
+
+
+        </div>
+
+      </div>
+
+        <script src="quiz.js"></script>
+    </body>
+</html>
